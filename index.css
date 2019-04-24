@@ -1,7 +1,36 @@
 body {
   font-family: 'Lato', sans-serif;
+  width: 80%;
+  /* height: 80%; */
+  margin: auto;
+
 }
 
-h1 {
-  font-family: 'Patua One';
+.top-layer {
+  display: inline-block;
+  width: 100%;
 }
+
+.header {
+  float: left;
+}
+
+.contact {
+  float: right;
+  margin-top: 10px;
+}
+
+.tools-table {
+  display: inline-block;
+  width: 80%;
+  text-decoration: none;
+}
+
+.left-tools {
+  float: left;
+}
+
+.right-tools {
+  float: right;
+}
+
