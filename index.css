@@ -1,36 +1,96 @@
-body {
+body li {
   font-family: 'Lato', sans-serif;
   width: 80%;
-  /* height: 80%; */
   margin: auto;
-
+  font-size: 12px;
 }
-
 .top-layer {
   display: inline-block;
   width: 100%;
+  text-align: center;
+  line-height: 10px;
+  padding: 0px;
+  margin: 0px;
 }
 
-.header {
-  float: left;
+.name {
+  font-size: 36px;
+  margin-bottom: 30px;
 }
 
-.contact {
-  float: right;
-  margin-top: 10px;
+.career-title {
+  font-size: 18px;
+}
+
+.contact p{
+  margin: 15px;
+  font-size: 16px;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.tools-experience-container {
+  display: inline-block;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+}
+
+.tools-table .title {
+  margin-bottom: 0px;
 }
 
 .tools-table {
-  display: inline-block;
-  width: 80%;
-  text-decoration: none;
+  float: left;
+  width: 40%;
+  margin: auto;
+  justify-content: center;
 }
 
 .left-tools {
   float: left;
+  padding: 0px;
 }
 
 .right-tools {
   float: right;
 }
 
+.last-bullet {
+  text-align: center;
+  padding-top: 120px;
+}
+
+.experience {
+  line-height: 5px;
+  width: 60%;
+  float: right;
+}
+
+.experience li {
+  line-height: 15px;
+  /* float: right; */
+  /* padding-right: 50px; */
+  margin-left: 10px;
+}
+
+.projects {
+  text-align: center;
+}
+
+.education {
+  margin-top: 20px;
+  line-height: 1px;
+  font-size: 14px;
+}
