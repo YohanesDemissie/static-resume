@@ -54,6 +54,7 @@ ul {
 }
 
 .tools-table .title {
+  margin-top: 15px;
   margin-bottom: 0px;
 }
 
@@ -67,15 +68,18 @@ ul {
 .left-tools {
   float: left;
   padding: 0px;
+  margin-bottom: 5px;
 }
 
 .right-tools {
   float: right;
+  margin-bottom: 5px;
+
 }
 
 .last-bullet {
   text-align: center;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .experience {
