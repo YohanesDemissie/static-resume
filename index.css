@@ -1,3 +1,9 @@
+html {
+   width: 595px;
+  height: 842px;
+  margin: auto;
+}
+
 body li {
   font-family: 'Lato', sans-serif;
   width: 80%;
