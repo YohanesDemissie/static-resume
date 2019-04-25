@@ -90,9 +90,7 @@ ul {
 
 .experience li {
   line-height: 15px;
-  /* float: right; */
-  /* padding-right: 50px; */
-  margin-left: 10px;
+  margin: auto;
 }
 
 .projects {
@@ -101,7 +99,8 @@ ul {
 
 .education {
   margin-top: 20px;
-  margin-left: 80px;
+  /* margin-left: 60px; */
   line-height: 1px;
   font-size: 14px;
+  text-align: center;
 }
